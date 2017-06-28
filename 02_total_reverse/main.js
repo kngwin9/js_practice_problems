@@ -15,12 +15,11 @@
 const myArray = ['hello', 45, 'Bob', 'what', '23'];
 let output = [];
 
-const arrayReverse = (array) => {
-    let arr = array;
-    for (let i = 0; i < arr.length; i++){
-        output.push(arr[i]);
+function arrayReverse(array) {
+    for (let i = 1; i <= array.length; i++) {
+        output.push(array[array.length - i])
     }
-};
+}
 
 arrayReverse(myArray);
 console.log(output);
