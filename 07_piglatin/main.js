@@ -18,3 +18,15 @@
 // - Also try maintaining capitalization of words that are capitalized in your input string.
 // 	- Example:
 // 		- `"Hello there"` would be `"Ellohay heretay"`
+
+const string = "Hello There";
+let output = null;
+
+const PigLatin = (param1) => {
+    console.log(param1);
+
+
+};
+
+PigLatin(string);
+console.log(output);
