@@ -23,8 +23,9 @@ const string = "Hello There";
 let output = null;
 
 const PigLatin = (param1) => {
-    console.log(param1);
-
+    let string_split = param1.split(" ");
+    let temp = [];
+    console.log(string_split);
 
 };
 
