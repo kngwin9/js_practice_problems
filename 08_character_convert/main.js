@@ -10,3 +10,13 @@
 // - Optimization: How would you speed up the processing if you already encountered a value?
 //
 //     <a href="" target="_blank">Solution Set</a>
+
+
+
+const character_convert = (string) => {
+    for (let i = 0; i < string.length; i++) {
+
+    }
+};
+
+character_convert('the cat in the hat');
