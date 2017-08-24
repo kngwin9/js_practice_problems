@@ -5,8 +5,25 @@
 // - Write a function that takes two parameters
 // - Parameter 1 - A string
 // - Parameter 2 - An array of strings
+
 // - The function should output all the words from the input array (parameter 2) that are longer than the input string (parameter 1)
 // - Example:
 // - `var myArray = ['cat','caterpillar','whale','accurate','smile','cactus','cute'];`
 // - `fittingWords('cat', myArray);`
 // - Output - `['cat','caterpillar','accurate','cactus']`
+
+strArray = ['cat','caterpillar','whale','accurate','smile','cactus','cute'];
+
+const fittingWords = (str, array) => {
+    let result = [];
+    let temp = [];
+    temp.push(str);
+
+    for (let i = 0; i <= array.length - 1; i++) {
+
+    }
+    console.log(temp);
+    console.log(result);
+};
+
+fittingWords('cat', strArray);
