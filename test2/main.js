@@ -3,14 +3,14 @@
 // Examples:
 //
 //     Input	Output
-// "test"	"es"
+// "eth_return_sum"	"es"
 // "testing"	"t"
 // "middle"	"dd"
 // "A"	"A"
 
 // Test Results:
 //     Log
-// Result for 'test' : es
+// Result for 'eth_return_sum' : es
 // Result for 'testing' : t
 // Result for 'middle' : dd
 // Result for 'A' : A
@@ -37,7 +37,7 @@ const getMiddle = (str) => {
 };
 
 getMiddle("test");
-console.log("Result for 'test' : " + result);
+console.log("Result for 'eth_return_sum' : " + result);
 getMiddle("testing");
 console.log("Result for 'testing' : " + result);
 getMiddle("middle");
