@@ -32,9 +32,6 @@ const breakChocolate = (n, m) => {
     }
 };
 
-
-
-
 breakChocolate(-1,-0);
 // breakChocolate(1,1);
 // console.log(result);

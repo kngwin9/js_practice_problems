@@ -1,0 +1,1 @@
+## Write a function that returns the minimum number of breaks needed to split a bar of "n x m" size, into "1 x 1" squares.
