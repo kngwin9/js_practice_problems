@@ -17,33 +17,40 @@
 // should handle no chocolate
 // expected undefined to equal 0
 
+// let result = 0;
+//
+// const breakChocolate = (n, m) => {
+//     if ( (isNaN(n)) || (isNaN(m)) ) {
+//         return 0;
+//     }
+//     else if ((n <= 0) || (m <= 0)) {
+//         return 0;
+//     }
+//     else {
+//         return (n * m) - 1
+//     }
+// };
+
 let result = 0;
 
 const breakChocolate = (n, m) => {
-    if ( (isNaN(n)) || (isNaN(m)) ) {
-        return 0;
-    }
-    else if ((n <= 0) || (m <= 0)) {
-        console.log("testing");
-        return 0;
-    }
-    else {
-        return (n * m) - 1
-    }
+
 };
 
 breakChocolate(-1,-0);
-// breakChocolate(1,1);
-// console.log(result);
-// breakChocolate(3,2);
-// console.log(result);
-// breakChocolate(5,5);
-// console.log(result);
-// breakChocolate(2,1);
-// console.log(result);
-// breakChocolate(3,1);
-// console.log(result);
-// breakChocolate("this",1);
-// console.log(result);
-// breakChocolate(2,"this");
-// console.log(result);
+console.log(result);
+breakChocolate(1,1);
+console.log(result);
+breakChocolate(3,2);
+console.log(result);
+breakChocolate(5,5);
+console.log(result);
+breakChocolate(2,1);
+console.log(result);
+breakChocolate(3,1);
+console.log(result);
+breakChocolate("this",1);
+console.log(result);
+breakChocolate(2,"this");
+console.log(result);
+

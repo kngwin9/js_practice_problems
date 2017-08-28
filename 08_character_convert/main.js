@@ -13,10 +13,10 @@
 
 
 
-const character_convert = (string) => {
-    for (let i = 0; i < string.length; i++) {
+const charConvert = (string) => {
 
-    }
+
+
 };
 
-character_convert('the cat in the hat');
+charConvert('the cat in the hat');
