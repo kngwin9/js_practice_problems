@@ -12,16 +12,17 @@
 //     Output string must be two numbers separated by a single space, and highest number is first.
 
 const highAndLow = (numbers) => {
+    let result = "";
     let array = numbers.split(" ");
     console.log(array);
     array.sort(function (a, b) {
-        return b-a;
+        return b - a;
     });
     let highest = array[0];
     let lowest = array[array.length - 1];
+    result = highest + " " + lowest;
     console.log("highest: " + array[0], "lowest: " + array[array.length - 1]);
-    return highest + lowest
-
+    return result
 };
 
 highAndLow("1 2 3 4 5"); // return "5 1"
