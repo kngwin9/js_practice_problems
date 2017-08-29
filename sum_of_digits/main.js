@@ -27,3 +27,19 @@
 // => 11 ...
 // => 1 + 1
 // => 2
+
+const digital_root = (n) => {
+    if (n < 10) {
+        return n;
+    }
+    else {
+        return digital_root(n % 10 + Math.floor(digital_root(n/10)));
+    }
+};
+
+digital_root(16);
+digital_root(942);
+digital_root(132189);
+digital_root(493193);
+digital_root(195);
+digital_root(992);
