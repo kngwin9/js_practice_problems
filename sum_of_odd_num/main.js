@@ -15,8 +15,8 @@ const rowSumOddNumbers = (n) => {
     let result = 0;
     let array = [];
 
-    for (let i = 0; i <= n.length; i++){
-        console.log("testing");
+    for (let i = 0; i <= n - 1; i++){
+
     }
 
 
@@ -24,5 +24,4 @@ const rowSumOddNumbers = (n) => {
 };
 
 // rowSumOddNumbers(1);
-rowSumOddNumbers(50);
-// rowSumOddNumbers(42);
+rowSumOddNumbers(42);
