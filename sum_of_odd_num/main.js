@@ -1,45 +1,28 @@
-// In this kata, you must create a digital root function.
+// iven the triangle of consecutive odd numbers:
 //
-// A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits of n. If that value has two digits, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
+//     1
+// 3     5
+// 7     9    11
+// 13    15    17    19
+// 21    23    25    27    29
+// ...
+// Calculate the row sums of this triangle from the row index (starting at index 1) e.g.:
 //
-//     Here's how it works (Ruby example given):
-//
-// digital_root(16)
-// => 1 + 6
-// => 7
-//
-// digital_root(942)
-// => 9 + 4 + 2
-// => 15 ...
-// => 1 + 5
-// => 6
-//
-// digital_root(132189)
-// => 1 + 3 + 2 + 1 + 8 + 9
-// => 24 ...
-// => 2 + 4
-// => 6
-//
-// digital_root(493193)
-// => 4 + 9 + 3 + 1 + 9 + 3
-// => 29 ...
-// => 2 + 9
-// => 11 ...
-// => 1 + 1
-// => 2
+// rowSumOddNumbers(1); // 1
+// rowSumOddNumbers(2); // 3 + 5 = 8
 
-const digital_root = (n) => {
-    if (n < 10) {
-        return n;
+const rowSumOddNumbers = (n) => {
+    let result = 0;
+    let array = [];
+
+    for (let i = 0; i <= n.length; i++){
+        console.log("testing");
     }
-    else {
-        return digital_root(n % 10 + Math.floor(digital_root(n/10)));
-    }
+
+
+    console.log(result);
 };
 
-digital_root(16);
-digital_root(942);
-digital_root(132189);
-digital_root(493193);
-digital_root(195);
-digital_root(992);
+// rowSumOddNumbers(1);
+rowSumOddNumbers(50);
+// rowSumOddNumbers(42);
