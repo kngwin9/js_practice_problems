@@ -43,5 +43,5 @@ getMiddle("middle");
 console.log("Result for 'middle' : " + result);
 getMiddle("A");
 console.log("Result for 'A' : " + result);
-getMiddle("");
+getMiddle("ab");
 console.log("Result for 'ab' : " + result);
