@@ -22,17 +22,16 @@
 // should handle long even strings
 // expected undefined to equal 'dd'
 // should handle long odd strings
-// expected undefined to equal 't'
-
-
-let result = "";
+// expected undefined to equal 't
 
 const getMiddle = (str) => {
       if (str.length % 2 === 0) {
           result = str.substr((str.length / 2) - 1, 2);
+          return result;
       }
       else {
           result = str.substr(str.length / 2, 1);
+          return result;
       }
 };
 
