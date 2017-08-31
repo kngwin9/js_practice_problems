@@ -3,7 +3,7 @@
 const solution = (number) => {
     let temp_array = [];
     let result = 0;
-    for (let i = 1; i <= number - 1; i++ ) {
+    for (let i = 1; i <= number; i++ ) {
         if ((i % 3 === 0) || (i % 5 === 0)) {
             temp_array.push(i);
         }
@@ -16,5 +16,5 @@ const solution = (number) => {
     return result;
 };
 
-solution(10);
+solution(12);
 
