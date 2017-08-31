@@ -3,7 +3,7 @@
 // Examples:
 //
 //     Input	Output
-// "eth_return_sum"	"es"
+// "test"	"es"
 // "testing"	"t"
 // "middle"	"dd"
 // "A"	"A"
@@ -37,7 +37,7 @@ const getMiddle = (str) => {
 };
 
 getMiddle("test");
-console.log("Result for 'eth_return_sum' : " + result);
+console.log("Result for 'test' : " + result);
 getMiddle("testing");
 console.log("Result for 'testing' : " + result);
 getMiddle("middle");
