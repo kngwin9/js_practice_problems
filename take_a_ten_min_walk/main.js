@@ -5,3 +5,8 @@
 const isValidWalk = (walk) => {
 
 };
+
+isValidWalk(['n','s','n','s','n','s','n','s','n','s']); // 'should return true');
+isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']); // 'should return false');
+isValidWalk(['w']); // 'should return false');
+isValidWalk(['n','n','n','s','n','s','n','s','n','s']); //'should return false');
