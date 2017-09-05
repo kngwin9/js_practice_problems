@@ -18,7 +18,9 @@
 // expected undefined to equal 0
 
 let result = 0;
+
 const breakChocolate = (n, m) => {
+
     if ( (isNaN(n)) || (isNaN(m)) ) {
         return 0;
     }
@@ -26,7 +28,8 @@ const breakChocolate = (n, m) => {
         return 0;
     }
     else {
-        return (n * m) - 1
+        result = (n * m) - 1;
+        return result;
     }
 };
 
@@ -46,3 +49,4 @@ breakChocolate("this",1);
 console.log(result);
 breakChocolate(2,"this");
 console.log(result);
+
