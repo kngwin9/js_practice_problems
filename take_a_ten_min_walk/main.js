@@ -3,12 +3,13 @@
 // Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
 const isValidWalk = (walk) => {
-    if (walk.length === 10) {
-        return true;
-    }
+
 };
 
 isValidWalk(['n','s','n','s','n','s','n','s','n','s']); // 'should return true');
 isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']); // 'should return false');
 isValidWalk(['w']); // 'should return false');
 isValidWalk(['n','n','n','s','n','s','n','s','n','s']); //'should return false');
+
+// Use a sort, then make sure each letter matches the other letters
+// Or use a +1 -1 or each and make sure it comes out to 0
